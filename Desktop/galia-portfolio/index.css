@@ -209,6 +209,30 @@ header.sticky {
     background: #191919;
 }
 
+.portfolio h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.portfolio h5 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.portfolio p {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .portfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, auto));

@@ -92,3 +92,77 @@ span {
     letter-spacing: 1px;
     transition: all .30s;
 }
+
+.h-btn:hover {
+    transform: translateY(-5px);
+}
+
+section {
+    padding: 120px 15%;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background: url(/images/header.JPG);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.home-text h1 {
+    margin: 20px 0px 20px;
+    font-size: 100px;
+}
+
+.home-text h3 {
+    margin: 55px;
+    font-size: 50px;
+}
+
+.home-text h4 {
+    color: #F9629F;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.newslatter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslatter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    padding: 16px 140px 16px 15px;
+    border: 2px solid #F9629F;
+    border-radius: 30px;
+}
+
+.newslatter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background: #F9629F;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    top: 6px;
+    right: 6px;
+}
+
+header.sticky {
+    padding: 12px 15%;
+    background: #F9629F;
+}
+
+.sticky .navbar a::after {
+    background: white;
+}
